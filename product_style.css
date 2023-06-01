@@ -2,6 +2,7 @@
                                         PAGE PRODUCT
                             --------------------------------- */
 /* #header nav a:active{ border: 1px solid white;} */
+#header .fa-bars{ color: #fff; font-size: 20px !important; font-weight: bold;}
 
 #section1, #section2, #section3{ margin-top: 100px; margin-bottom: 100px; width: 100%;}
 /* .image{ max-width: 844px; height: 604px;} */
@@ -26,6 +27,7 @@
 
 
 @media screen and (max-width:768px) {
+    #header{ position: fixed; top: 0; z-index: 10; width: 100%;}
     #section1 .box-top{
         width: auto;
         text-align: center;
