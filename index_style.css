@@ -43,11 +43,14 @@
         #section1 .gauche{
             left: 0;
             margin: auto;
-            margin-bottom: 20px;
+            order: 2;
+            height: 350px;
         }
         
         #section1 img{
             height: auto;
+            order: 1;
+            margin-bottom: 20px;
         }
         #section2 .box p{ padding-bottom: 20px;}
         
@@ -55,12 +58,13 @@
     @media screen and (max-width:550px) {
         #section1 .gauche{
             width: max-content;
+           
         }
         #section1 .accueil{
             min-width: 300px;
         }
         #section1 .gauche button{
-            bottom: -20px;
+            bottom: 0;
         }
         #section2 .box{
             height: max-content;
