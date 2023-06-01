@@ -4,6 +4,14 @@
 *{ padding: 0; margin: 0; box-sizing: border-box;}
 /* #header nav a:active{ border: 1px solid white;} */
 #header .fa-bars{ color: #fff; font-size: 20px !important; font-weight: bold;}
+
+
+
+
+
+
+
+
 /* ---------------------------------
          SECTION 1
 --------------------------------- */
@@ -13,7 +21,7 @@
 #section1 .gauche h4{ font-size: 32px; font-weight: 100; }
 #section1 .gauche p{ font-size: 16px; font-weight: 400;}
 #section1 .gauche button{ width: 150px; height: 58px; background: #7B261A; border: none; border-radius: 5px;
-        font-size: 15px; font-weight: 700; color: white;}
+        font-size: 15px; font-weight: 700; color: white; margin-top: 15px;}
 #section1 img{ max-width: 750px; height: 450px;}
 
 /* ---------------------------------
@@ -35,10 +43,13 @@
         #section1 .gauche{
             left: 0;
             margin: auto;
+            margin-bottom: 20px;
         }
+        
         #section1 img{
             height: auto;
         }
+        #section2 .box p{ padding-bottom: 20px;}
         
     }
     @media screen and (max-width:550px) {

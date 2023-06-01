@@ -33,8 +33,11 @@ table td{ font-size: 18px; font-weight: 400; color: #000000;}
     .table_box{
         padding-left: 0;
         padding-right: 0;
-    }  
+    }
+    #section1{
+        margin-bottom: 100px;
+    }
     #section2 .box{
-        bottom: 100px;
+        top: 15px;
     } 
 }

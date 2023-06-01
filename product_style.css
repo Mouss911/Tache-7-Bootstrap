@@ -31,26 +31,26 @@
     #section1 .box-top{
         width: auto;
         text-align: center;
-        bottom: 0;
+        bottom: 10px;
     }
     #section2 .box-top{
         width: auto;
         text-align: center;
-        bottom: 0;
+        bottom: 10px;
     }
     #section3 .box-top{
         width: 100%;
         text-align: center;
-        bottom: 0;
+        bottom: 10px;
     }
     #section1 .box-bottom{
-        top: 0;
+        top: 10px;
     }
     #section2 .box-bottom{
-        top: 0;
+        top: 10px;
     }
     #section3 .box-bottom{
-        top: 0;
+        top: 10px;
     }
     .box-top .p1{
         font-size: medium;
