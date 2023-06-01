@@ -37,6 +37,7 @@
         #section1 img{
             height: auto;
         }
+        
     }
     @media screen and (max-width:550px) {
         #section1 .gauche{
